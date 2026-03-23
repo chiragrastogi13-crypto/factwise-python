@@ -1,19 +1,16 @@
 ## Overview
-
 ### Application
 Implement a team project planner tool. The tool consists of API's for
 * Managing users
-* Manging teams
+* Managing teams
 * Managing a team board and tasks within a board 
-
 
 The directory consists of base abstract classes. The goal is to implement the API methods defined in these classes
 Create a module for concrete implementation of these base classes extending the base classes.
 * The input and output will be JSON strings. Structure of which is mentioned in the method doc string.
 * Every API needs to adhere to the constraints and raise exceptions for invalid inputs.
 * The method doc, will include some additional requirements specific to the method.
-
-The complete APIs must be implemented as part of the project
+The complete APIs must be implemented as part of the project and **Django** should be used to build the tool.
 
 ### Persistence
 The application should use the local file storage for persistence.  
@@ -36,5 +33,3 @@ The user of the application should not be exposed to the internal file storage a
 * Documentation
 * Quality of Readme.md (Concise and to the point)
 * Creativity and simplicity
-
-
